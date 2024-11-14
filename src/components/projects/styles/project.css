@@ -5,6 +5,7 @@
 	border-radius: 20px;
 	opacity: 0.8;
 	height: 100%;
+	background: #fafafa;
 }
 
 .project a {
@@ -12,7 +13,7 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	background: #ececec;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -45,6 +46,11 @@
 
 .project-description {
 	color: var(--secondary-color);
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .project-link {

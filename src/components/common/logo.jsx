@@ -6,14 +6,19 @@ import INFO from "../../data/user";
 import "./styles/logo.css";
 
 const Logo = (props) => {
-	let { width, link } = props;
+	let { width, link, src } = props;
 
 	if (link === undefined) {
 		link = true;
 	}
 
 	const imageElement = (
-		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
+		<img
+			alt="logo"
+			width={width}
+			className="logo"
+			src={src || INFO.main.logo}
+		/>
 	);
 
 	return (
