@@ -130,6 +130,87 @@ const INFO = {
 			link: "/project/5",
 		},
 	],
+	services: [
+		{
+			slug: "1",
+			date: "5 June 2024",
+			title: "Drafting Service",
+			description:
+				"Unlock the Power of Precision with Dwelup Corporation's AutoCAD Drafting Services. We specialize in delivering meticulously detailed and accurate drafting solutions that enhance the quality and efficiency of your architectural and engineering projects. Our team of experienced professionals utilizes the latest AutoCAD software to provide top-notch drafting services tailored to your specific needs, ensuring your designs come to life flawlessly. Trust Dwelup Corporation for precise and reliable AutoCAD drafting that sets your projects on the path to success.",
+			logo: "https://static.wixstatic.com/media/8dfda6_6b13501e1bd74132ad304870f38a9629~mv2.jpg/v1/fill/w_1452,h_816,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/AutoCAD%20Services.jpg",
+			linkText: "View Service",
+			link: "/service/1",
+		},
+
+		{
+			slug: "2",
+			date: "5 July 2024",
+			title: "Construction Estimation Service",
+			description:
+				"Dwelup Corporation is your trusted partner for precise construction cost estimation, offering detailed Bill of Quantities (BOQ) and Material Takeoff (MTO) services. Our expert team ensures your projects stay on budget and on track, providing accurate estimates and comprehensive breakdowns to streamline your construction process. Count on Dwelup Corporation for cost-effective solutions that make your project planning effortless.",
+			logo: "https://static.wixstatic.com/media/8dfda6_2801627a9ba04b02a98ddec8736de5cf~mv2.png/v1/fill/w_1452,h_816,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Construction%20Material%20Take%20Off%20(MTO)%20and%20Bill%20of%20Quantities%20(BOQ)%20Services.png",
+			linkText: "View Service",
+			link: "/service/2",
+		},
+
+		{
+			slug: "3",
+			date: "5 Aug 2024",
+			title: "3D House Designing Service",
+			description:
+				"Dwelup Corporation takes your concepts and transforms them into captivating 3D house designs and renderings using cutting-edge software. Witness your vision come to life digitally, allowing you to explore and customize your dream space with remarkable detail and realism. Trust Dwelup Corporation to bring your ideas to virtual reality with our expert 3D house design and rendering services.",
+			logo: "https://static.wixstatic.com/media/8dfda6_5a10363990cd4120b87fb59d9ccd2fcf~mv2.png/v1/fill/w_1280,h_719,al_c,q_90,enc_auto/Untitled%20design%20(1).png",
+			linkText: "View Service",
+			link: "/service/3",
+		},
+
+		{
+			slug: "4",
+			date: "5 Sep 2024",
+			title: "Structural Analysis & Design Service",
+			description:
+				"Dwelup Corporation offers comprehensive structural analysis and design services, ensuring the safety and stability of your construction projects. Our team of skilled engineers employs advanced techniques and software to evaluate and optimize structures, providing you with reliable solutions. Rely on Dwelup Corporation for the expertise that keeps your projects solid and secure.",
+			logo: "https://static.wixstatic.com/media/8dfda6_3683a275fab14e4b8d68ac79313dd9eb~mv2.jpg/v1/crop/x_0,y_0,w_800,h_570/fill/w_800,h_569,fp_0.50_0.50,q_85,enc_auto/Untitled%20design_edited_edited.jpg",
+			linkText: "View Service",
+			link: "/service/4",
+		},
+
+		{
+			slug: "5",
+			date: "5 Oct 2024",
+			title: "3D Architectural & Structural Modeling Service",
+			description: (
+				<>
+					Dwelup Corporation is your trusted source for unparalleled
+					Revit 3D Modeling Services. Our seasoned team of experts
+					specializes in transforming your architectural concepts into
+					stunning 3D renderings, equipping you with the tools needed
+					to visualize, plan, and execute your projects with unrivaled
+					precision and efficiency. Dive into the world of
+					cutting-edge Revit expertise and discover how Dwelup
+					Corporation can elevate your designs while streamlining your
+					project workflows to drive success.
+					<br />
+					<br />
+					<strong>Revit 3D Modeling Services Include:</strong>
+					<br />
+					• Architectural Modeling: Transform your architectural plans
+					into immersive 3D models, helping you visualize and present
+					your designs effectively.
+					<br />
+					• Structural Modeling: Create accurate structural models to
+					understand the building's framework better, ensuring
+					stability and safety.
+					<br />• Interior and Exterior Renderings: Showcase your
+					project's interior and exterior in stunning 3D visuals for
+					presentations and marketing.
+				</>
+			),
+			logo: "https://static.wixstatic.com/media/8dfda6_c5345e87bb0045e6870714a5b3fd93b6~mv2.png/v1/fill/w_1080,h_1080,al_c,q_90,enc_auto/_Blue%20World%20Architecture%20Day%20Instagram%20Post.png",
+			linkText: "View Service",
+			link: "/service/5",
+		},
+	],
 	aboutSocials: [
 		{
 			url: socials.instagram,

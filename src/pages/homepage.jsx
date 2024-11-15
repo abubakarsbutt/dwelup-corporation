@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import {
-	faFileCsv,
 	faGlobe,
+	faFileCsv,
 	faMailBulk,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,13 +22,11 @@ import {
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -113,7 +111,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://scontent.fisb6-1.fna.fbcdn.net/v/t39.30808-6/417452854_122108130338219913_3701275444321066212_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CthiQ4kR8ZsAX8F4eaF&_nc_ht=scontent.fisb6-1.fna&oh=00_AfAwx6HQX2iLcI8rO4qeOklXBot--4fJBXW84bifgf_ooA&oe=6605A1A4"
+											src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/342402659/original/09f70bc446cafe33af33cb1cd11d1a0e8092b936/do-professional-revit-3d-architectural-and-structural-modeling-services.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -250,23 +248,6 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 						<div className="homepage-after-title">
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
-							</div>
-
 							<div className="homepage-works">
 								<Works />
 							</div>

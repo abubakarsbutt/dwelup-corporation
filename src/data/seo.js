@@ -26,6 +26,12 @@ const SEO = [
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
 		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
 	},
+	{
+		page: "services",
+		description:
+			"I offer a variety of professional services aimed at helping clients achieve their goals. With years of experience, I’m proud of the impact I've made. Many clients have benefited from these services, and I’m always open to collaborating on new projects.",
+		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith", "services"],
+	},
 
 	{
 		page: "contact",
